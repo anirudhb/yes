@@ -1,0 +1,12 @@
+[package]
+name = "bfi"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cranelift = "0.73.0"
+cranelift-jit = "0.73.0"
+cranelift-module = "0.73.0"
+cranelift-native = "0.73.0"

@@ -1,0 +1,20 @@
+query AssignmentsQuery($cid: ID) {
+  course(id: $cid) {
+    assignmentsConnection(first: 500) {
+      nodes {
+        id
+        name
+        assignmentGroup {
+          id
+        }
+        pointsPossible
+        submissionsConnection(first: 50) {
+          nodes {
+            gradingStatus
+            score
+          }
+        }
+      }
+    }
+  }
+}

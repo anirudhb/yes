@@ -1,0 +1,11 @@
+query AssignmentGroupsQuery($cid: ID) {
+  course(id: $cid) {
+    assignmentGroupsConnection(first: 50) {
+      nodes {
+        id
+        name
+        groupWeight
+      }
+    }
+  }
+}
