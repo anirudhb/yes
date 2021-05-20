@@ -10,3 +10,5 @@ LostKng.b is from [here](https://jonripley.com/i-fiction/games/LostKingdomBF.htm
 Data cells are i64.
 
 Many programs also have their authors attributed at top.
+
+Programs included are not licensed under AGPLv3, they are licensed under their respective authors' licenses (also see: [esoteric README](https://sange.fi/esoteric/brainfuck/README.txt), [LostKng readme](https://jonripley.com/i-fiction/games/LostKingdomBF.html))
